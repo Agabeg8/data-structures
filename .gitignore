@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ######################
 # Project Specific
 ######################
@@ -79,6 +80,24 @@ release.properties
 ######################
 # Package Files
 ######################
+=======
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+*.DS_Store
+*.idea
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+>>>>>>> 3be342e06cf45669ad32d14e1e5f5765e1abb5bd
 *.jar
 *.war
 *.ear
