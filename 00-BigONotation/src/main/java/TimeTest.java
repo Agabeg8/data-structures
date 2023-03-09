@@ -1,5 +1,19 @@
 public class TimeTest {
     public static void main(String[] args) {
+
+        final char a = 'A', d = 'D';
+        char grade = 'B';
+
+        switch (grade){
+            case a:
+            case 'B':
+                System.out.print("great");
+            case 'C':
+                System.out.println("good"); break;
+            case d:
+            case 'F':
+                System.out.print("not good");
+        }
         int n=10000;
         long startTime=System.currentTimeMillis();
         int numberOfOperations=0;
